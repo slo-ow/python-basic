@@ -1,4 +1,8 @@
-import imp
-from random import *
-std = randint(4, 28)
-print("오프라인 스터디 모임 날짜는 매월", str(std), "일로 선정되었습니다.")
+sentence1 = """ 
+나는 소년이고 파이썬은 쉬워요 ㅋㅋ 1
+"""
+print(sentence1)
+sentence2 = "나는 소년이고 파이썬은 쉬워요 ㅋㅋ 2"
+print(sentence2)
+sentence3 = '나는 소년이고 파이썬은 쉬워요 ㅋㅋ 3'
+print(sentence3)
