@@ -35,9 +35,8 @@ class AttackUnit(Unit):
         print("{0} : {1} 방향으로 적군을 공격 합니다. [공격력 {2}]"
               .format(self.name, location, self.damage))
 
+
 # 마린
-
-
 class Marine(AttackUnit):
     def __init__(self):
         AttackUnit.__init__(self, "마린", 40, 1, 5)
