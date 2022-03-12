@@ -10,7 +10,12 @@
 
 
 # import 공개 범위 설정해야함 => __init__
+import random
+import inspect
 from travel import *
 # trip_to = vietnam.VietnamPackage()
 trip_to = thailand.ThailandPackage()
 trip_to.detail()
+
+print(inspect.getfile(random))
+print(inspect.getfile(thailand))
