@@ -45,3 +45,5 @@ except ValueError:
 except BigNumberError as err:
     print("에러가 발생하였습니다. 한 자리 숫자만 입력하세요.")
     print(err)
+finally:  # 무조건 출력하는 구문 (프로그램이 강제로 종료되는 상황을 방지할 수 있음.)
+    print("계산기를 이용해 주셔서 감사합니다.")
