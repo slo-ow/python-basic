@@ -1,0 +1,13 @@
+Volumes > Project > python-basic  --------->  (Main Folder)
+                                - project     (folder)
+                                - quiz        (folder)
+                                  - quiz8.py  ---------------> 현재 작업중인곳
+                                - report      (folder)
+                                - module      (folder)
+                                  - byme.py   ---------------> 사용 예정중인 모듈 파일
+                                  - theater_module.py  
+                                - file1.py    (python file)
+                                - file2.py    (python file)
+                                - file3.py    (python file)
+                                - .....       (python file)
+                                - module.py   (python file)
